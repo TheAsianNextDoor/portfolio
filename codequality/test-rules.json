@@ -1,0 +1,22 @@
+{
+  "rules": [
+    {
+      "displayName": "There can be no errors",
+      "metricKey": "total_errors",
+      "value": "0",
+      "comparator": "E"
+    },
+    {
+      "displayName": "There can be no failures",
+      "metricKey": "total_failures",
+      "value": "0",
+      "comparator": "E"
+    },
+    {
+      "displayName": "Tests passed",
+      "metricKey": "tests_passed",
+      "value": "0",
+      "comparator": "GT"
+    }
+  ]
+}

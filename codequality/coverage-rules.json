@@ -1,0 +1,28 @@
+{
+  "rules": [
+    {
+      "displayName": "Statements coverage should meet minimum",
+      "metricKey": "StatementCoverage",
+      "value": "30",
+      "comparator": "GTE"
+    },
+    {
+      "displayName": "Branch coverage should meet minimum",
+      "metricKey": "BranchCoverage",
+      "value": "30",
+      "comparator": "GTE"
+    },
+    {
+      "displayName": "Function coverage should meet minimum",
+      "metricKey": "MethodCoverage",
+      "value": "30",
+      "comparator": "GTE"
+    },
+    {
+      "displayName": "Line coverage should meet minimum",
+      "metricKey": "LineCoverage",
+      "value": "30",
+      "comparator": "GTE"
+    }
+  ]
+}
